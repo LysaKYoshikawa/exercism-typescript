@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "test": "yarn lint:types && jest --no-cache",
+    "start": "ts-node teste.ts"
+  }
+}
